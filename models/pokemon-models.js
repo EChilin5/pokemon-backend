@@ -2,6 +2,9 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
+// Schema Model
+// name, image, description
+
 const pokemonSchema = new Schema(
   {
     name: {
